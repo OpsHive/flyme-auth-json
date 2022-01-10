@@ -1,0 +1,61 @@
+{
+    "Routes": [
+
+
+
+        {
+            "DownstreamPathTemplate": "/Search/Search",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+              {
+                "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+                "Port": 80
+              }
+            ],
+            "UpstreamPathTemplate": "/las-reporting/Search/Search",
+            "UpstreamHttpMethod": [ "Post" ],
+            "AuthenticationOptions": {
+              "AuthenticationProviderKey": "Bearer",
+              "AllowedScopes": []
+            }
+          },
+          {
+            "DownstreamPathTemplate": "/Search",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+              {
+                "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+                "Port": 80
+              }
+            ],
+            "UpstreamPathTemplate": "/las-reporting/Search",
+            "UpstreamHttpMethod": [ "Post" ],
+            "AuthenticationOptions": {
+              "AuthenticationProviderKey": "Bearer",
+              "AllowedScopes": []
+            }
+          },
+          {
+            "DownstreamPathTemplate": "/WeatherForecast",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+              {
+                "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+                "Port": 80
+              }
+            ],
+            "UpstreamPathTemplate": "/las-reporting/WeatherForecast",
+            "UpstreamHttpMethod": [ "Get" ],
+            "AuthenticationOptions": {
+              "AuthenticationProviderKey": "Bearer",
+              "AllowedScopes": []
+            }
+          }
+
+
+
+        ],
+        "GlobalConfiguration": {
+          "BaseUrl": "preprod-las-auth:80"
+        }
+      }

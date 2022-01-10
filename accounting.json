@@ -3,22 +3,7 @@
       
       
       
-      {
-        "DownstreamPathTemplate": "/api/accountBalance/{companyId}",
-        "DownstreamScheme": "http",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
-            "Port": 80
-          }
-        ],
-        "UpstreamPathTemplate": "/las-accounting/api/accountBalance/{companyId}",
-        "UpstreamHttpMethod": [ "Get" ],
-        "AuthenticationOptions": {
-          "AuthenticationProviderKey": "Bearer",
-          "AllowedScopes": []
-        }
-      },
+      
       {
         "DownstreamPathTemplate": "/accounting/v1/expenses_category",
         "DownstreamScheme": "http",
