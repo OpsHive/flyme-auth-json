@@ -1,0 +1,50 @@
+{
+    "Routes": [
+      
+      
+      
+      
+      {
+        "DownstreamPathTemplate": "/user-management/GetUserList",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "lasuser.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-user/user-management/GetUserList",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/user-management/GetUserList",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "lasuser.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-user/user-management/GetUserList",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      }
+
+
+
+
+
+
+    ],
+    "GlobalConfiguration": {
+      "BaseUrl": "preprod-las-auth:80"
+    }
+  }
+  
