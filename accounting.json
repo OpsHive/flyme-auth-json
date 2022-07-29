@@ -29,7 +29,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses_category}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -45,7 +45,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses_category",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -61,7 +61,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses_category/{id}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -77,7 +77,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses_category/{id}",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -93,7 +93,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses_category/{id}",
-        "UpstreamHttpMethod": [ "DELETE" ],
+        "UpstreamHttpMethod": [ "Delete" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -109,7 +109,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -125,7 +125,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -141,7 +141,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses/{id}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -157,7 +157,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses/{id}",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -173,7 +173,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/expenses/{id}",
-        "UpstreamHttpMethod": [ "DELETE" ],
+        "UpstreamHttpMethod": [ "Delete" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -189,7 +189,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/purchase",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -205,7 +205,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -221,7 +221,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -237,7 +237,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/unpaidInvoices",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -253,7 +253,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/{id}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -269,7 +269,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/{id}",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -285,7 +285,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoiceNo/{id}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -301,7 +301,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/updateInvoice",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -317,7 +317,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/updateInvoiceOnDiscount",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -333,7 +333,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/checkInvoicePaid/{id}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -349,7 +349,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/PayInvoiceManually",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -365,7 +365,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/{id}/payment",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -381,7 +381,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/{id}/payment",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -397,7 +397,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/{id}/payment",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -413,7 +413,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/{id}/invoiceline",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -429,7 +429,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/{id}/invoiceline",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -445,7 +445,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/{id}/invoiceline",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -461,7 +461,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/FilterInvoice",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -477,7 +477,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/invoice/FilterInvoicePagination",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -493,7 +493,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/margin",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -509,7 +509,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/balancedue",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -525,7 +525,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/bank-reconciliation",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -541,7 +541,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/statement",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -557,7 +557,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/PayInvoice/{InvoiceId}/{transactionId}",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -573,7 +573,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/api/markup",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -589,7 +589,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/api/markup",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -605,7 +605,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/api/markup/{id}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -621,7 +621,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/api/markup/{id}",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -637,7 +637,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/api/markup/{id}",
-        "UpstreamHttpMethod": [ "DELETE" ],
+        "UpstreamHttpMethod": [ "Delete" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -653,7 +653,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/company/{companyId}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -669,7 +669,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/test-notification",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -685,7 +685,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/paymentmethod",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -701,7 +701,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/paymentmethod",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -717,7 +717,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/paymentmethod/{id}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -733,7 +733,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/paymentmethod/{id}",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -749,7 +749,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/paymentmethod/{id}",
-        "UpstreamHttpMethod": [ "DELETE" ],
+        "UpstreamHttpMethod": [ "Delete" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -765,7 +765,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/received_money",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -781,7 +781,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/received_money",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -797,7 +797,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/received_money/{id}",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -813,7 +813,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/received_money/{id}",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -829,7 +829,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/received_money/{id}/receivedline",
-        "UpstreamHttpMethod": [ "GET" ],
+        "UpstreamHttpMethod": [ "Get" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -845,7 +845,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/received_money/{id}/receivedline",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -861,7 +861,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/received_money/{id}/receivedline",
-        "UpstreamHttpMethod": [ "PUT" ],
+        "UpstreamHttpMethod": [ "Put" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -877,7 +877,7 @@
           }
         ],
         "UpstreamPathTemplate": "/las-accounting/accounting/v1/receivable",
-        "UpstreamHttpMethod": [ "POST" ],
+        "UpstreamHttpMethod": [ "Post" ],
         "AuthenticationOptions": {
           "AuthenticationProviderKey": "Bearer",
           "AllowedScopes": []
@@ -1139,11 +1139,646 @@
           "AllowedScopes": []
         }
       },
-      
-    
-
-
-
+      {
+        "DownstreamPathTemplate": "/accounting/v1/reports/cash-paid-to-spplier",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/reports/cash-paid-to-spplier",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/reports/cash-paid-to-employee",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/reports/cash-paid-to-employee",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/reports/tax-paid",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/reports/tax-paid",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/reports/operating-activities",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/reports/operating-activities",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/reports/purchase-of-equipments",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/reports/purchase-of-equipments",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/reports/sales-of-equipments",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/reports/sales-of-equipments",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/reports/investing-activities",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/reports/investing-activities",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/reports/cash-flow-statement",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/reports/cash-flow-statement",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/ExportToExcel",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/ExportToExcel",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/spent_money",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/spent_money",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/spent_money",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/spent_money",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/spent_money/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/spent_money/{id}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/spent_money/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/spent_money/{id}",
+        "UpstreamHttpMethod": [ "Put" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/spent_money/{bank_id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/spent_money/{bank_id}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/spent_money/{id}/spentline",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/spent_money/{id}/spentline",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/spent_money/{id}/spentline",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/spent_money/{id}/spentline",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/spent_money/{id}/spentline",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/spent_money/{id}/spentline",
+        "UpstreamHttpMethod": [ "Put" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/tax",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/tax",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/tax",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/tax",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/tax/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/tax/{id}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/tax/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/tax/{id}",
+        "UpstreamHttpMethod": [ "Put" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/tax/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/tax/{id}",
+        "UpstreamHttpMethod": [ "Delete" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/Testing/DummyResponse",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/Testing/DummyResponse",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/Testing/DummyResponseString",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/Testing/DummyResponseString",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/topup",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/api/topup",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/topup",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/api/topup",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/topup/api/topup/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/api/topup/{id}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/topup/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/api/topup/{id}",
+        "UpstreamHttpMethod": [ "Put" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/topup/company/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/api/topup/company/{id}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/topup/filters",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/api/topup/filters",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/api/topup/ExportToExcel",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/api/topup/ExportToExcel",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/weeklytarget",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/weeklytarget",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/weeklytarget",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/weeklytarget",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/weeklytarget/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/weeklytarget/{id}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/weeklytarget/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/weeklytarget/{id}",
+        "UpstreamHttpMethod": [ "Put" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/weeklytarget/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/weeklytarget/{id}",
+        "UpstreamHttpMethod": [ "Delete" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/weeklytarget/FilterWeeklyTarget",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/weeklytarget/FilterWeeklyTarget",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/withdraw",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/withdraw",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/withdraw",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/withdraw",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/accounting/v1/withdraw/{id}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-accounting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-accounting/accounting/v1/withdraw/{id}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      }
 
 
 
