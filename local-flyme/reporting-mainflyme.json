@@ -1,0 +1,160 @@
+{
+    "Routes": [
+      
+      
+      
+      
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/OpearationalDataByAgencyId",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/OpearationalDataByAgencyId",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/OperationalData-by-date",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/OperationalData-by-date",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/AgencyRouteDetail/{AgencyId}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/AgencyRouteDetail/{AgencyId}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/AgencyRoutesStats/{agencyId}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/AgencyRoutesStats/{agencyId}",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/AddAgency",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/AddAgency",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/RouteDetails",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/RouteDetails",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/SearchRouteDetails",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/SearchRouteDetails",
+        "UpstreamHttpMethod": [ "Post" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/Test",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/Test",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      },
+      {
+        "DownstreamPathTemplate": "/reporting/v1/operational-dashboard/Test1",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "preprod-las-reporting.preprod.svc.cluster.local",
+            "Port": 80
+          }
+        ],
+        "UpstreamPathTemplate": "/las-reporting/reporting/v1/operational-dashboard/Test1",
+        "UpstreamHttpMethod": [ "Get" ],
+        "AuthenticationOptions": {
+          "AuthenticationProviderKey": "Bearer",
+          "AllowedScopes": []
+        }
+      }
+
+
+
+
+    ],
+    "GlobalConfiguration": {
+      "BaseUrl": "preprod-las-auth:80"
+    }
+  }
+  
